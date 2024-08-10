@@ -128,3 +128,881 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+#header .hero-section .title {
+    margin-top: 50px;
+    flex: 4;
+}
+
+#header .hero-section .title h1 {
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+#header .hero-section .title span {
+    font-family: miama;
+    color: rgb(255, 255, 255);
+    font-size: 10rem;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#header .hero-section .title p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+#header .hero-section .img img {
+    margin-top: 32px;
+}
+
+#header .hero-section .img {
+    flex: 5;
+    text-align: center;
+    position: relative;
+}
+
+#header .hero-section .btn {
+    display: flex;
+    gap: 14px;
+
+}
+
+#header .hero-section .btn button a {
+    padding: 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-radius: 42px;
+
+}
+
+#header .hero-section .btn-one a {
+    background: var(--bg-lighten);
+    text-align: left;
+}
+
+#header .hero-section .btn-two a {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+#header .position-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#header .positon-item .text-one {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 23px;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
+#header .positon-item .text-one .fa-solid {
+    font-size: 2.5rem;
+    color: var(--bg-lighten);
+    border-radius: 50px;
+}
+
+#header .positon-item .text-one .text-item {
+    margin-left: 12px;
+}
+
+#header .positon-item .text-one .text-item h1 {
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+#header .positon-item .text-one .text-item p {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+#header .positon-item .text-two {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 17px 24px;
+    position: absolute;
+    right: 4%;
+    top: 30%;
+}
+
+#header .positon-item .text-two h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#header .positon-item .text-two p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+/* header end */
+/* habit section start */
+#habit .title-heading h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#habit .container .title-heading p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 0px auto 58px auto;
+}
+
+#habit .img-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+#habit .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#habit .img-item .img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid var(--bg-secondary);
+    overflow: hidden;
+    margin-bottom: 30px;
+
+}
+
+
+#habit .item h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1, 1rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+#habit .item p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+#habit .item img:hover {
+
+    transition: all linear 0.3s;
+}
+
+#habit .item img:hover {
+    transform: scale(1.1);
+}
+
+/* habit section end */
+/* run section start */
+#Run-an-Extra .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+    margin: 0 auto;
+    background-color: var(--bg-secondary);
+    border-radius: 18px;
+    padding: 29px 32px;
+
+}
+
+#Run-an-Extra .img-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+#Run-an-Extra .img-item img {
+    width: 100%;
+    transform: translate(-35%, 40%) scale(3);
+}
+#Run-an-Extra .text-item h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#Run-an-Extra .text-item p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+
+
+#Run-an-Extra .text-item a {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    background: var(--bg-lighten);
+    padding: 16px 40px;
+    border-radius: 42px;
+}
+
+/* run section end */
+/* training section  start*/
+#training .text-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+#training .text-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+#training .img-section-1 {
+    display: grid;
+    grid-template-columns: 23% 50% 27%;
+}
+
+#training .img-section-2 {
+    display: grid;
+    grid-template-columns: 40% 25% 35%;
+}
+
+
+#training .img-section-1 .section-1 {
+    width: 100%;
+    height: 215px;
+    overflow: hidden;
+    background: url(../images/exercise1.jpg), rgba(6, 255, 210, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#training .img-section-1 .section-2 {
+    width: 100%;
+    height: 215px;
+    overflow: hidden;
+    background: url(../images/exercise2.png), rgba(255, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#training .img-section-1 .section-3 {
+    width: 100%;
+    height: 215px;
+    overflow: hidden;
+    background: url(../images/exercise3.png), rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#training .img-section-2 .section-4 {
+    width: 100%;
+    height: 215px;
+    overflow: hidden;
+    background: url(../images/exercise4.png), rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#training .img-section-2 .section-5 {
+    width: 100%;
+    height: 215px;
+    overflow: hidden;
+    background: url(../images/exercise5.jpg), rgba(66, 255, 0, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#training .img-section-2 .section-6 {
+    width: 100%;
+    height: 215px;
+    overflow: hidden;
+    background: url(../images/exercise6.jpg), rgba(0, 71, 255, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#training .left-content {
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+
+
+#training .left-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 25px 30px;
+}
+
+#training .section-2 {
+    display: flex;
+    justify-content: left;
+
+}
+
+#training .section-4 {
+    display: flex;
+    justify-content: right;
+
+}
+
+#training .section-2 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 25px 30px;
+
+}
+
+#training .section-4 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 25px 30px;
+
+}
+
+#training .section-1 h1 {
+    color: black;
+}
+
+/* training section  end*/
+/* BMI section start*/
+#bmi-calculator-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bmi-calculator-header .heading h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#bmi-calculator-header .heading p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+#bmi-calculator {
+    max-width: 1440px;
+    background-color: var(--bg-secondary);
+    margin: 0px auto;
+    margin-bottom: 90px;
+    padding: 60px 0px;
+}
+
+#bmi-calculator .calculate-chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+#bmi-calculator .table {
+    flex: 1;
+}
+
+#bmi-calculator .table .header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 52px;
+}
+
+#bmi-calculator .table table {
+    border-collapse: collapse;
+}
+
+#bmi-calculator .table th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 18px;
+    text-align: left;
+}
+
+#bmi-calculator .table th {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+
+#bmi-calculator .table td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#bmi-calculator .bmi-form {
+    flex: 1;
+
+}
+
+#bmi-calculator .bmi-form h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+#bmi-calculator .bmi-form p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+#bmi-calculator .input {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+#bmi-calculator select,
+input {
+    flex: 1;
+    width: 100%;
+    height: 48px;
+    margin: 6px 12px 6px 0px;
+    padding: 0px 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 200;
+    line-height: 22px;
+}
+
+#bmi-calculator option {
+    background: rgb(55, 55, 55);
+}
+
+#bmi-calculator input:focus {
+    outline: none;
+}
+
+#bmi-calculator .btn {
+    margin-top: 34px;
+}
+
+#bmi-calculator .btn a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: var(--bg-lighten);
+}
+
+/* BMI section end*/
+/* meet our team section start*/
+
+#meet-our-team .heading h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#meet-our-team .heading p {
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+#meet-our-team .img-content {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    background-color: var(--bg-secondary);
+    border-radius: 18px;
+    padding: 20px;
+    margin: 54px auto;
+    gap: 20px;
+
+}
+
+#meet-our-team .img-content .image {
+    width: 100%;
+    height: 272px;
+    border-radius: 18px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+
+#meet-our-team .img-content .trainer-1 {
+    background: url(../images/trainer1.png), rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#meet-our-team .img-content .trainer-2 {
+    background: url(../images/trainer2.png), rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#meet-our-team .img-content .trainer-3 {
+    background: url(../images/trainer3.png), rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#meet-our-team .img-content .trainer-4 {
+    background: url(../images/trainer4.png), rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#meet-our-team .img-content .trainer-5 {
+    background: url(../images/trainer5.png), rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#meet-our-team .img-content .trainer-6 {
+    background: url(../images/trainer6.png), rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#meet-our-team .img-content .name {
+    margin: 20px;
+}
+
+#meet-our-team .img-content .name h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+#meet-our-team .img-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+
+
+}
+
+/* meet our team section end*/
+
+/* challenges section start*/
+
+#challenge-section {
+    max-width: 1440px;
+}
+
+#challenge-section .heading h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#challenge-section .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+#challenge-section .card-item{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: var(--bg-secondary);
+   padding:30px;
+   border: 4px solid rgb(40, 40, 40);
+   border-radius: 30px;
+   transition: all linear 0.2s;
+}
+
+#challenge-section .card-item h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1, 1rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+#challenge-section .card-item p{
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 0.9rem;
+   font-weight: 400;
+   line-height: 18px;
+   letter-spacing: 0.3px;
+   text-align: left;
+   margin-bottom: 15px;
+}
+
+#challenge-section .card-item img{
+   width: 100%;
+   border-radius: 16px;
+   margin-bottom: 24px;
+}
+#challenge-section .card-item .btn a{
+   background-color: var(--bg-lighten);
+   padding: 8px 10px;
+   color: white;
+   border-radius: 5px;
+   transition: all 0.2s linear;
+
+}
+#challenge-section .card-item .btn a:hover{
+   background-color: rgb(192, 58, 38);
+
+}
+#challenge-section .card-item:hover,.mid-card{
+   transform: scale(1.04);
+}
+
+/* Challenge section end*/
+/*footer  our team section start*/
+#footer-section {
+    max-width: 1440px;
+    background-color: var(--bg-secondary);
+    margin-top: 90px;
+}
+
+#footer-section .content-row {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 90px;
+    padding: 60px 0px;
+
+}
+
+#footer-section .content-row .logo-content {
+    flex: 1;
+}
+
+#footer-section .content-row .logo-content h1 {
+    color: var(--bg-lighten);
+    font-size: 4.3rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#footer-section .content-row .logo-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+#footer-section .content-row .get-start {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#footer-section .get-start h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#footer-section .get-start li {
+    margin-bottom: 20px;
+}
+
+#footer-section .get-start a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px 5px;
+}
+
+#footer-section .get-start a:hover {
+    color: var(--bg-lighten);
+}
+
+#footer-section .footer h1 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding: 35px 0px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+
+
+
+
