@@ -1,0 +1,334 @@
+
+ @media screen and (max-width:576px) {
+
+    .nav-bar,
+    .hero-section {
+        margin: 0px 20px;
+    }
+
+    #habit,
+    #Run-an-Extra,
+    #training,
+    .calculate-chart,
+    #bmi-calculator-header,
+    #meet-our-team,
+    #challenge-section{
+        margin: 60px 20px;
+    }
+
+   
+    #header .nav-item {
+        display: none;
+    }
+
+    #header .nav-bar .fa-solid {
+        display: block;
+        font-size: 1.5rem;
+        color: white;
+        text-align: left;
+    }
+
+
+
+    #header .nav-bar .fa-solid ul {
+        list-style: none;
+    }
+
+    #header .hero-section {
+        flex-direction: column;
+    }
+    #header .hero-section .title h1 {
+        font-size: 2.4rem;
+    }
+    #header .hero-section .title span {
+        font-size: 5rem;
+        
+    }
+   
+
+    #header .positon-item .text-one {
+        position: absolute;
+        left: 0%;
+        bottom: 40%;
+        padding: 15px;
+    }
+
+    #header .positon-item .text-two {
+        position: absolute;
+        right: 2%;
+        top: 15%;
+        padding: 12px 18px;
+    }
+    #header .positon-item .text-one .text-item h1 {
+        font-size: 1.1rem;
+    }
+   
+    #header .positon-item .text-one .text-item p {
+        font-size: 0.7rem;
+
+    }
+    #header .positon-item .text-two h1 {
+        font-size: 1.9rem;
+        
+    }
+   
+    #header .positon-item .text-two p {
+        font-size: 0.6rem;
+
+    }
+   
+    #header .hero-section .btn button a {
+        padding: 10px 20px;
+
+    }
+
+    #header .hero-section .btn {
+        gap: 10px;
+    }
+    #header .hero-section .btn button a {
+        padding: 16px 20px;
+        font-size: 0.9rem;
+    }
+
+    
+    #habit .title-heading h1 {
+        font-size: 2rem;
+    }
+    #habit .img-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        margin: 0 auto;
+
+    }
+
+
+   
+
+    #Run-an-Extra .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Run-an-Extra .text-item h1 {
+        text-align:left;
+        font-size: 2rem;
+    }
+
+    #Run-an-Extra .text-item p {
+        text-align: left;
+    }
+
+    #Run-an-Extra .text-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Run-an-Extra .text-item button {
+        width: 100%;
+        height: 54px;
+        background-color: var(--bg-lighten);
+        border-radius: 42px;
+    }
+
+  
+    #training .text-content h1 {
+        font-size: 2rem;
+    }
+    #training .img-section-1 .section-3 {
+        display: none;
+    }
+
+    #training .img-section-2 .section-6 {
+        display: none;
+    }
+
+    #training .img-section-1 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #training .img-section-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+
+ 
+    #bmi-calculator-header .heading h1 {
+        font-size: 2rem;
+    }
+    #bmi-calculator .calculate-chart {
+        flex-direction: column;
+        gap: 42px;
+        justify-content: left;
+
+
+    }
+
+    #bmi-calculator {
+        padding: 1px 0px;
+    }
+
+    #bmi-calculator-header .heading h1 {
+        text-align: left;
+    }
+
+    #bmi-calculator-header .heading p {
+        text-align: left;
+    }
+
+ 
+    #meet-our-team .img-content {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    
+    #meet-our-team .heading h2 {
+
+        font-size: 2rem;
+
+    }
+    #challenge-section .card {
+       flex-direction: column;
+   }
+   #challenge-section .card-item:hover,.mid-card{
+       transform: scale(1);
+    }
+   
+  
+    #challenge-section .heading h1 {
+        font-size: 2rem;
+
+    }
+    #footer-section .content-row {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    #footer-section .content-row .get-start {
+        flex-direction: column;
+
+    }
+
+    
+
+}
+
+
+@media screen and (max-width:992px) and (min-width:576px) {
+
+    .nav-bar,
+    .hero-section {
+        margin: 0px 20px;
+        gap: 10px;
+    }
+
+    #habit,
+    #Run-an-Extra,
+    #training,
+    .calculate-chart,
+    #bmi-calculator-header,
+    #meet-our-team,
+    #challenge-section {
+        margin: 90px 20px;
+    }
+
+    /* basic css */
+    #header .nav-item a {
+
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+    
+
+    #header .hero-section .title {
+        margin: 70px;
+    }
+
+    #header .hero-section .btn button a {
+        padding: 16px 30px;
+        font-size: 1rem;
+
+   
+    }
+    .hero-section {
+        flex-direction: column;
+    }
+
+    #header .hero-section .img {
+        text-align: left;
+    }
+
+    #header .positon-item .text-one {
+        position: absolute;
+        left: 0%;
+        bottom: 25%;
+    }
+
+    #header .positon-item .text-two {
+        position: absolute;
+        right: -20%;
+        top: 10%;
+    }
+
+ 
+    #habit .img-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #habit .item p {
+        width: 231px;
+        margin-bottom: 40px;
+    }
+
+   
+    #training .img-section-1 {
+        display: grid;
+        grid-template-columns: 32% 36% 32%;
+    }
+
+    #training .img-section-2 {
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+    }
+
+    
+    #bmi-calculator .calculate-chart {
+        flex-direction: column;
+        gap: 42px;
+        justify-content: left;
+
+
+    }
+
+    #bmi-calculator .btn {
+        margin-top: 34px;
+        text-align: center;
+    }
+
+   
+    #challenge-section .card {
+       flex-direction: column;
+   }
+   #challenge-section .card-item:hover,.mid-card{
+       transform: scale(1);
+    }
+   
+ 
+    #footer-section .content-row {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    #footer-section .content-row .get-start {
+        gap: 150px;
+
+    }
+
+   
+}
+

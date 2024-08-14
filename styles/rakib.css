@@ -1,7 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/* font  */
 
 * {
     margin: 0;
@@ -49,9 +48,7 @@ body {
        margin: 90px auto;
    }
 
-/* basic css */
-/* header start */
-/* navbar start */
+
 #header {
     max-width: 1440px;
     margin: 0px auto;
@@ -121,8 +118,7 @@ body {
     background: var(--bg-lighten);
 }
 
-/* navbar end */
-/* header start */
+
 #header .hero-section {
     display: flex;
     justify-content: space-between;
@@ -281,8 +277,7 @@ body {
     text-align: left;
 }
 
-/* header end */
-/* habit section start */
+
 #habit .title-heading h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
@@ -357,8 +352,7 @@ body {
     transform: scale(1.1);
 }
 
-/* habit section end */
-/* run section start */
+
 #Run-an-Extra .content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -415,8 +409,7 @@ body {
     border-radius: 42px;
 }
 
-/* run section end */
-/* training section  start*/
+
 #training .text-content h1 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
@@ -569,8 +562,7 @@ body {
     color: black;
 }
 
-/* training section  end*/
-/* BMI section start*/
+
 #bmi-calculator-header {
     display: flex;
     flex-direction: column;
@@ -726,8 +718,7 @@ input {
     background: var(--bg-lighten);
 }
 
-/* BMI section end*/
-/* meet our team section start*/
+
 
 #meet-our-team .heading h2 {
     color: rgb(255, 255, 255);
@@ -839,9 +830,7 @@ input {
 
 }
 
-/* meet our team section end*/
 
-/* challenges section start*/
 
 #challenge-section {
     max-width: 1440px;
@@ -915,8 +904,7 @@ input {
    transform: scale(1.04);
 }
 
-/* Challenge section end*/
-/*footer  our team section start*/
+
 #footer-section {
     max-width: 1440px;
     background-color: var(--bg-secondary);
@@ -1002,6 +990,7 @@ input {
     border-top: 2px solid rgba(255, 255, 255, 0.1);
 
 }
+
 
 
 
